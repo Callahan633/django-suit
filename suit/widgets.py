@@ -2,6 +2,7 @@ from django import forms, VERSION
 from django.contrib.admin.widgets import AdminTimeWidget, AdminDateWidget
 from django.forms import Textarea, TextInput, ClearableFileInput
 from django.utils.safestring import mark_safe
+from django.utils.translation import gettext as _
 
 
 django_version = VERSION[:2]
